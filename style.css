@@ -1,0 +1,54 @@
+@media only screen and (min-device-width: 777px) and (min-device-height: 400px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+:root {
+    --primary: #2d4059!important;
+}
+
+
+header,
+footer {
+    background-color: #2d4059!important;
+}
+
+body {
+    background-color: #e5e5e5!important;
+}
+
+.player-inactive {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 1.5s cubic-bezier(.25,.8,.25,1);
+  }
+  
+.player-active {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.75s cubic-bezier(.25,.8,.25,1);
+}
+
+#player1, 
+#player2 {
+    border-radius: 10px;
+}
+
+.player-icon {
+    width: 96px;
+    height: 96px;
+    background-color: #2d4059;
+}
+
+#player1TemporaryPoints, 
+#player1TotalPoints,
+#player2TemporaryPoints, 
+#player2TotalPoints {
+    font-size: 24px!important;
+}
+
+#Dice {
+    height: 96px;
+    width: 96px;
+    color: #dc3545;
+}
